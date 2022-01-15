@@ -7,6 +7,7 @@ export const Container = styled.View`
 `;
 
 export const Content = styled.View`
+    position: relative;
     flex: 1;
     max-height: 360px;
     z-index: 5;

@@ -5,6 +5,7 @@ export const Container = styled.ScrollView.attrs({
     contentContainerStyle: {alignItems: 'center'},
 })`
     margin: 0 30px;
+    max-height: 260px;
 `;
 
 export const Code = styled.View`
@@ -34,7 +35,7 @@ export const NavText = styled.Text`
 `;
 
 export const SignOutButton = styled.TouchableOpacity`
-    border-width: ${StyleSheet.hairlineWidth}px;
+    border-width: 1px;
     border-color: rgba(255, 255, 255, 0.6);
     border-radius: 4px;
     justify-content: center;
@@ -44,7 +45,7 @@ export const SignOutButton = styled.TouchableOpacity`
 `;
 
 export const SignOutText = styled.Text`
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     color: #fff;
 `;
